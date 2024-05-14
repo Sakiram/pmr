@@ -6,7 +6,6 @@ import { GrPrevious,GrNext } from "react-icons/gr"
 import FilterProduct from '../component/FilterProduct'
 import AllProduct from '../component/AllProduct'
 import { Link } from "react-router-dom";
-import Imagecarousel from '../component/Imagecarousel'
 import './Home.css';
 import home1 from '../cp imgs/home1.jpg';
 import home2 from '../cp imgs/home2.jpg';
@@ -44,10 +43,6 @@ const Home = () => {
       <div className='md:flex gap-4 py-2'>
 
         <div className='md:w-1/2 p-5 bg-slate-300 rounded'>
-          {/* <div className='flex gap-3 bg-slate-300 w-36 px-2 items-center rounded-full'>
-            <p className='text-sm font-medium text-slate-900'>Bike Delivery</p>
-            <img src='https://cdn-icons-png.flaticon.com/512/2972/2972185.png' className='h-7'/>
-          </div> */}
           <h2 className='text-4xl flex flex-col md:text-7xl font-bold py-3'>PMR AGENCIES <span className='text-red-500 text-'>CONSTRUCTION MATERIALS</span></h2>
           <p className='py-3 text-base'>One stop construction materials store for all types of construction materials at WHOLESALE</p>
           <Link to={"menu/66005acf90ee0f664d38c934"}><button className='font-bold bg-red-500 text-slate-200 px-4 py-2 rounded-md'>Explore now</button>
@@ -81,10 +76,7 @@ const Home = () => {
           }  
         </div>
       </div>
-      {/* <div className='carousel'>
-            <Imagecarousel images={images} />
-      </div> */}
-
+      
       <div className=''>
         <div className='flex w-full items-center'>
           <h2 className='font-bold text-2xl text-slate-800 mb-4'>
